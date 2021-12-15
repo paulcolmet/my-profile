@@ -1,0 +1,94 @@
+/* colors and fonts */
+
+body {
+	background: #F5F8FA; 
+	color: #5B5750;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+
+}
+
+h1, h2, p {
+font-family: 'Rubik', sans-serif;
+
+}
+
+#paultof {
+width: 150px;
+border-radius: 50%;
+}
+
+h1 {
+
+	color: #33465B;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+h2 {
+
+	color: #33465B;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+p {
+
+	color: #33465B;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+a {
+	font-family: 'rubik', sans-serif;
+	text-decoration: none;
+	color: #F47659;
+	text-align: center;
+}
+
+a:hover {
+	color: #F47659;
+	opacity: 0.6;
+}
+
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	text-align: center;
+}
+@media (max-width: 600px) {
+	.container {
+	width: 500px;
+	}
+}
+
+
+.element-design {
+	background: white;
+	padding: 40px;
+	margin: 20px;
+	box-shadow: 0px 10px 35px rgba(0,0,0,.1);
+	border-radius: 7px;
+	text-align: center;
+}
+
+.fa-linkedin {
+font-size: 30px;
+}
+.fa-facebook-square {
+	font-size: 30px;
+}
+
+.list-inline {
+	list-style: none;
+}
+.list-inline li {
+	padding: 10px;
+	display: inline;
+}
+
+
+
+
